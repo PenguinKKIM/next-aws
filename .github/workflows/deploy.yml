@@ -44,4 +44,4 @@ jobs:
             git pull origin main
             npm install
             npm run build
-            nohup npm run start &
+            sudo nohup npm run start &
